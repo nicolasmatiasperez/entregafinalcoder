@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2{
+    font-family: $mainFont;
+}
+
+h3{
+    font-family: $secondaryFont;
+}
+
+h1{
+    font-size: $textXl;
+}
+
+h2{
+    font-size: $textLg;
+}
+
+h3{
+    font-size:$textSm;
+}
+
+p{
+    font-size: $mainFont;
+    line-height: 1.2em;
+    color:$black;
+    font-size:$textMd;
+    line-height: 2;
+    animation-name: textAlpha; 
+    animation-duration: 5s;
+}
+
+body{
+    background-image: url(../img/texturas/funky-lines.webp);
+    overflow-x: hidden;
+}
+
+
+.bgYellowClara{
+    background-color: $mainColor;
+}
+
+.bgYellowMasClara{
+    background-color: $secondaryColor;
+}
+
+
+#foot{
+    background-color: $mainColor;
+    margin: 0px;
+    padding: 0px;
+}
+
+#contactos{
+    width: 50%;
+    height:auto;
+    margin: 50px auto;
+    padding: 30px;
+    border: solid $secondaryColor 5px;
+    overflow: auto;
+}
+
+
+.textCenter{
+    text-align: center;
+}
+.textConImagen{
+    padding:5px;
+    display: flexbox;
+    align-items: center;
+}
+
+.contacto__titulo--xxl{
+    font-size: 2rem;
+}
+.campoFormulario{
+    padding: 2px;
+    margin: 10px;
+    display: block;
+}
+
+.botonFormulario{
+    background-color: $mainColor;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    margin:auto;
+    display: block;
+}
+
+.formBoos{
+    margin: auto;
+    padding: 8rem;
+    
+
+}
+.alineadoTextoImagen{
+    vertical-align: middle;
+}
+
+.pAccordionBody{
+    font-family: $mainColor;
+    font-size: 0.8em; 
+    animation-name: textAlpha; 
+    animation-duration: 3s;
+    padding: 2em;
+}
+
+.textNav{
+    font-family: "Rubik Mono One", sans-serif;
+    font-size: 1em; 
+
+}
+
+.negrita{
+    font-weight: bold;
+}
